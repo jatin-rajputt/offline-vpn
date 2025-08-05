@@ -1,0 +1,356 @@
+{
+    "auto_close": true,
+    "auto_open": false,
+    "auto_start": false,
+    "drawing_grid_size": 25,
+    "grid_size": 75,
+    "name": "project5.0",
+    "project_id": "05613ab0-c360-41a9-9e9b-e1cbb53db870",
+    "revision": 9,
+    "scene_height": 1000,
+    "scene_width": 2000,
+    "show_grid": false,
+    "show_interface_labels": true,
+    "show_layers": false,
+    "snap_to_grid": false,
+    "supplier": null,
+    "topology": {
+        "computes": [],
+        "drawings": [
+            {
+                "drawing_id": "1481b54b-9df8-4e57-8bcc-f508377ca01c",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg height=\"71\" width=\"249\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">VPN Client\nLAN network 192.168.10.10\nVPN network 10.0.0.12</text></svg>",
+                "x": -284,
+                "y": 220,
+                "z": 2
+            },
+            {
+                "drawing_id": "accbc524-edca-4160-8944-2dc19ee2b065",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg height=\"71\" width=\"248\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">VPN Server \nLAN network 192.168.10.1\t\nVPN network 10.0.0.11</text></svg>",
+                "x": 291,
+                "y": 222,
+                "z": 2
+            },
+            {
+                "drawing_id": "24761658-c0bc-4669-9fe1-0ed7491dcf21",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg height=\"50\" width=\"249\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">KALI (for testing)\nLAN network 192.168.10.20</text></svg>",
+                "x": -4,
+                "y": -456,
+                "z": 2
+            },
+            {
+                "drawing_id": "17187f9c-5f56-48c7-bc4f-6aaed6b1fbe0",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg height=\"29\" width=\"323\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">Dowmload ADDS and Remote access</text></svg>",
+                "x": 208,
+                "y": 297,
+                "z": 2
+            }
+        ],
+        "links": [
+            {
+                "filters": {},
+                "link_id": "e2224407-3450-491d-aeae-c2147023c161",
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e0",
+                            "x": 30,
+                            "y": 69
+                        },
+                        "node_id": "714a8924-02b0-451b-9f4e-e48fff0573ba",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e0",
+                            "x": 37,
+                            "y": -23
+                        },
+                        "node_id": "3667b59d-fb18-46fa-b0fb-69487bcecb52",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "a1546e5e-65d7-4df0-8c26-e2f2bd0d9b48",
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e2",
+                            "x": 64,
+                            "y": 43
+                        },
+                        "node_id": "3667b59d-fb18-46fa-b0fb-69487bcecb52",
+                        "port_number": 2
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e0",
+                            "x": -3,
+                            "y": -4
+                        },
+                        "node_id": "f95e5b6e-5fc8-4810-901f-aae1af7dbb7c",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "a0f5aa87-72ce-4181-b8f5-4b0435063045",
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e1",
+                            "x": 8,
+                            "y": 45
+                        },
+                        "node_id": "3667b59d-fb18-46fa-b0fb-69487bcecb52",
+                        "port_number": 1
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e0",
+                            "x": 59,
+                            "y": 0
+                        },
+                        "node_id": "c6680c8d-59ca-41fa-a445-6ae21ced6072",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            }
+        ],
+        "nodes": [
+            {
+                "compute_id": "local",
+                "console": 5000,
+                "console_auto_start": false,
+                "console_type": "none",
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 32,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "Switch1",
+                    "x": -3,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "Switch1",
+                "node_id": "3667b59d-fb18-46fa-b0fb-69487bcecb52",
+                "node_type": "ethernet_switch",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "ports_mapping": [
+                        {
+                            "name": "Ethernet0",
+                            "port_number": 0,
+                            "type": "access",
+                            "vlan": 1
+                        },
+                        {
+                            "name": "Ethernet1",
+                            "port_number": 1,
+                            "type": "access",
+                            "vlan": 1
+                        },
+                        {
+                            "name": "Ethernet2",
+                            "port_number": 2,
+                            "type": "access",
+                            "vlan": 1
+                        },
+                        {
+                            "name": "Ethernet3",
+                            "port_number": 3,
+                            "type": "access",
+                            "vlan": 1
+                        },
+                        {
+                            "name": "Ethernet4",
+                            "port_number": 4,
+                            "type": "access",
+                            "vlan": 1
+                        },
+                        {
+                            "name": "Ethernet5",
+                            "port_number": 5,
+                            "type": "access",
+                            "vlan": 1
+                        },
+                        {
+                            "name": "Ethernet6",
+                            "port_number": 6,
+                            "type": "access",
+                            "vlan": 1
+                        },
+                        {
+                            "name": "Ethernet7",
+                            "port_number": 7,
+                            "type": "access",
+                            "vlan": 1
+                        }
+                    ]
+                },
+                "symbol": ":/symbols/ethernet_switch.svg",
+                "template_id": "1966b864-93e7-32d5-965f-001384eec461",
+                "width": 72,
+                "x": 28,
+                "y": -142,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": null,
+                "console_auto_start": false,
+                "console_type": "none",
+                "custom_adapters": [],
+                "first_port_name": "",
+                "height": 59,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "p_server-1",
+                    "x": -18,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "p_server-1",
+                "node_id": "f95e5b6e-5fc8-4810-901f-aae1af7dbb7c",
+                "node_type": "virtualbox",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "adapter_type": "Intel PRO/1000 MT Desktop (82540EM)",
+                    "adapters": 1,
+                    "headless": false,
+                    "linked_clone": false,
+                    "on_close": "power_off",
+                    "ram": 2048,
+                    "usage": "",
+                    "use_any_adapter": false,
+                    "vmname": "p_server"
+                },
+                "symbol": ":/symbols/vbox_guest.svg",
+                "template_id": "090438da-4aa4-4c02-994f-6b8c971090bc",
+                "width": 65,
+                "x": 334,
+                "y": 132,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": null,
+                "console_auto_start": false,
+                "console_type": "none",
+                "custom_adapters": [],
+                "first_port_name": "",
+                "height": 59,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "kali1-1",
+                    "x": -1,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "kali1-1",
+                "node_id": "714a8924-02b0-451b-9f4e-e48fff0573ba",
+                "node_type": "virtualbox",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "adapter_type": "Intel PRO/1000 MT Desktop (82540EM)",
+                    "adapters": 1,
+                    "headless": false,
+                    "linked_clone": false,
+                    "on_close": "power_off",
+                    "ram": 2048,
+                    "usage": "",
+                    "use_any_adapter": false,
+                    "vmname": "kali1"
+                },
+                "symbol": ":/symbols/vbox_guest.svg",
+                "template_id": "bc28a168-a136-45e1-b39d-ba57d9b75ec1",
+                "width": 65,
+                "x": 38,
+                "y": -327,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": null,
+                "console_auto_start": false,
+                "console_type": "none",
+                "custom_adapters": [],
+                "first_port_name": "",
+                "height": 59,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "client-1",
+                    "x": -4,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "client-1",
+                "node_id": "c6680c8d-59ca-41fa-a445-6ae21ced6072",
+                "node_type": "virtualbox",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "adapter_type": "Intel PRO/1000 MT Desktop (82540EM)",
+                    "adapters": 1,
+                    "headless": false,
+                    "linked_clone": false,
+                    "on_close": "power_off",
+                    "ram": 2048,
+                    "usage": "",
+                    "use_any_adapter": true,
+                    "vmname": "client"
+                },
+                "symbol": ":/symbols/vbox_guest.svg",
+                "template_id": "c1bff187-66ce-4d76-a4c7-04d9bce2597c",
+                "width": 65,
+                "x": -224,
+                "y": 130,
+                "z": 1
+            }
+        ]
+    },
+    "type": "topology",
+    "variables": null,
+    "version": "2.2.12",
+    "zoom": 71
+}
