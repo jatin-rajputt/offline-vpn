@@ -46,7 +46,12 @@ This project demonstrates a secure **Offline VPN** setup between a Windows Serve
 - Configuration folder
 - Topology image (`topology.png`)
 
----
+--## 🗂️ Project Files
+
+- `/configs/server_vpn_config.txt`: VPN settings on Windows Server
+- `/configs/client_settings.txt`: Windows Client VPN connection info
+- `/configs/kali_ping_capture.pcap`: Wireshark capture from Kali (encrypted traffic)
+
 
 ## 📌 Status
 
