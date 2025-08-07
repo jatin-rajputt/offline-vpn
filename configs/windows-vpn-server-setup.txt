@@ -1,0 +1,25 @@
+Windows Server VPN Setup (RRAS + ADDS)
+
+1. Turned off Windows Firewall.
+2. Assigned static IP: 192.168.10.1/24
+3. Installed the following roles via Server Manager:
+   - Active Directory Domain Services (ADDS)
+   - Remote Access with VPN (RRAS)
+
+4. Configured ADDS:
+   - Created a new forest: VPN.com
+   - Promoted the server to a domain controller
+   - Rebooted system after domain configuration
+
+5. Configured RRAS:
+   - Enabled "Custom Configuration"
+   - Selected "VPN Access"
+   - Configured VPN using PPTP protocol
+
+6. Created a domain user for VPN login
+7. Allowed VPN access to the user account
+8. Verified routing and NAT setup
+
+Useful Commands:
+- `ipconfig` – Check VPN IP
+- `mmc` – Open management console

