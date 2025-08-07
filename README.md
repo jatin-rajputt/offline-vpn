@@ -49,7 +49,7 @@ This project demonstrates a secure **Offline VPN** setup between a Windows Serve
 --## 🗂️ Project Files
 
 - [/configs/server_vpn_config.txt](https://github.com/jatin-rajputt/offline-vpn/blob/main/configs/windows-vpn-server-setup.txt): VPN settings on Windows Server
-- `/configs/client_settings.txt`: Windows Client VPN connection info
+- [/configs/client_settings.txt](https://github.com/jatin-rajputt/offline-vpn/blob/main/configs/windows-vpn-client-setup.txt): Windows Client VPN connection info
 - `/configs/kali_ping_capture.pcap`: Wireshark capture from Kali (encrypted traffic)
 
 
