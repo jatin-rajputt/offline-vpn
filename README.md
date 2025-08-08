@@ -55,7 +55,7 @@ This project demonstrates a secure **Offline VPN** setup between a Windows Serve
 
 ## 📸 Screenshots
 
-The folder `screenshoots/` contains step-by-step screenshots of the project:
+The folder [screenshoots/](https://github.com/jatin-rajputt/offline-vpn/tree/main/screenshoots) contains step-by-step screenshots of the project:
 - VPN configuration on the Server and Client
 - Communication testing
 - Packet capture from the Attacker
