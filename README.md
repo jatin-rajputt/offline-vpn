@@ -21,13 +21,14 @@ This project demonstrates a secure **Offline VPN** setup between a Windows Serve
 
 ---
 
-## 🧰 Tools Used
+## 🛠️ Tools Used
 
-- GNS3
-- VirtualBox
-- Windows Server (ADDS + RRAS)
-- Windows Client
-- Kali Linux (Wireshark for packet inspection)
+- [GNS3](https://www.gns3.com/) – Network simulation software used to design and run the VPN topology
+- [VirtualBox](https://www.virtualbox.org/) – Virtualization platform to run Windows and Kali Linux machines
+- [Windows Server](https://www.microsoft.com/en-us/windows-server) – Used to configure the VPN Server
+- [Kali Linux](https://www.kali.org/) – Used as an attacker machine to test VPN encryption
+- [Wireshark](https://www.wireshark.org/) – (Optional) Used for packet analysis and verifying VPN encryption
+
 
 ---
 
@@ -52,6 +53,13 @@ This project demonstrates a secure **Offline VPN** setup between a Windows Serve
 - [/configs/client_settings.txt](https://github.com/jatin-rajputt/offline-vpn/blob/main/configs/windows-vpn-client-setup.txt): Windows Client VPN connection info
 -[ /configs/kali_ping_capture.txt](https://github.com/jatin-rajputt/offline-vpn/blob/main/configs/kali-testing-commands.txt) : Wireshark capture from Kali (encrypted traffic)
 
+## 📸 Screenshots
+
+The folder `screenshoots/` contains step-by-step screenshots of the project:
+- VPN configuration on the Server and Client
+- Communication testing
+- Packet capture from the Attacker
+- Successful VPN connection
 
 ## 📌 Status
 
