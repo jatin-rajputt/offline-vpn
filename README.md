@@ -44,9 +44,9 @@ This project demonstrates a secure **Offline VPN** setup between a Windows Serve
 ## 📂 Files Included
 
 - [.gns3](https://github.com/jatin-rajputt/offline-vpn/blob/main/project5.0.gns3) project file
-- Configuration folder
-- Topology image ([Topology](topology.png))
-- screenshots [screenshoots/](https://github.com/jatin-rajputt/offline-vpn/tree/main/screenshoots)
+- [Configuration](https://github.com/jatin-rajputt/offline-vpn/tree/main/configs) folder
+- ([Topology](topology.png)) image 
+- [screenshoots/](https://github.com/jatin-rajputt/offline-vpn/tree/main/screenshoots)
 
 --## 🗂️ Project Files
 
